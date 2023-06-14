@@ -61,8 +61,8 @@
             <Font size="18.0" />
           </font>
         </Label>
-            <TextArea prefHeight="338.0" prefWidth="453.0" />
-            <ListView prefHeight="331.0" prefWidth="453.0" fx:id="listView" />
+            <TextArea prefHeight="338.0" prefWidth="453.0" style="-fx-background-color: #FBCEB1;"/>
+            <ListView prefHeight="331.0" prefWidth="453.0" style="-fx-background-color: #FBCEB1;" fx:id="listView" />
       </children>
     </AnchorPane>
       <Button mnemonicParsing="false" text="Load" onAction="#action"/>
